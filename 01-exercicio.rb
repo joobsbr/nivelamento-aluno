@@ -27,13 +27,7 @@ puts "Qual é a sua idade em segundos?"
 
 puts "\n"
 
-puts "1 dia = 24 horas"
-puts "1 mes = 30 * 24h = 720h no mês"
-puts "1 ano tem 12 meses ou seja 720h x 12 meses = 8640h"
-puts "Minha idade em horas é de 8640h"
-puts "Minha idade é 25 anos"
-puts "8640 x 25" + (8640 * 25).to_s
-puts "portanto com 25 anos ja vivi 25.216.000h" 
+puts (25 * 365 * 24 * 60 * 60).to_s
 
 puts "\n"
 
@@ -45,10 +39,7 @@ puts "Não como chocolate pois tenho Labirintite"
 
 puts "Porem gosto muito de bala"
 
-puts "\n"
-puts "Minha expectativa de vida é de 80 anos"
-puts "Como em media 3 balas ao dia"
-puts "Como 90 balas em 1 mês"
+puts (5 * 12 * 80).to_s
 
 puts "\n"
 
