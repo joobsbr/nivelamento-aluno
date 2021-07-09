@@ -23,10 +23,9 @@ a3 = 365
 a4 = 24
 a5 = 60
 
-resultado = a1 * a2 * a3 *a4 * a5
+resultado = a1* a2 * a3* a4 * a5
 
 puts resultado
-
 
 puts "\n"
 
