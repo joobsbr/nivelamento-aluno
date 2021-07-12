@@ -45,3 +45,4 @@ puts  "Se minha idade é de 1232 milhões de segundos, qual é minha idade em an
 
 puts 1232000000 / 60 / 60 / 24 / 365
 puts 1232000000.0 / 60 / 60 / 24 / 365
+1111
