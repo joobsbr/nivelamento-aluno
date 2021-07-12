@@ -1,42 +1,43 @@
 def horas_ano (horas, dias)
     horas = horas * dias
-    puts "A quantidade de horas em 1 anos é = " + horas.to_s
-    return
+    return horas
 end
 
-puts horas_ano(365, 24)
+resultado = horas_ano(24, 365)
+puts resultado
 
 #ATÉ AQUI OK
 
 def minutos_decadas (dia, decada, dias, horas, minutos)
     decada = dia * decada * dias * horas * minutos
-    puts "A quantidade de minutos há em uma década é = " + decada.to_s
-    return
+    return decada
 end
 
-puts minutos_decadas(1, 10, 365, 24, 60)
+resultado = minutos_decadas(1, 10, 365, 24, 60)
+
+puts resultado
 
 #ATE AQUI OK
 
 def idade_segundos (idade, dias, horas, minutos, segundos)
     idade_segundos = idade * dias * horas * minutos * segundos
-    puts "A minha idade em segundos é = " + idade_segundos.to_s
-    return
+    return idade_segundos
 end
 
-puts idade_segundos(25, 365, 24, 60, 60)
+resultado = idade_segundos(25, 365, 24, 60, 60)
+puts resultado
 
 #ATE AQUI OK
 
 
 def anos_segundos (a1, a2, a3, a4, a5)
     ano = a1 / a2 / a3 / a4 / a5
-    puts "1232 segundos tem  = " + ano.to_s + " anos"
-    return
+    return ano
 end
 
-puts anos_segundos(1232000000, 60, 60, 24, 365)
+resultado = anos_segundos(1232000000, 60, 60, 24, 365)
 
+puts resultado
 
 
 
