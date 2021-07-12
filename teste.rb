@@ -1,7 +1,10 @@
 def calculo_imc (peso, altura)
     imc = peso / altura ** 2
-    puts "IMC = " + imc.to_s
-    return
+    return imc
+
+    resultado = imc(102, 1.98)
+
+    puts resultado
 end
 
 
@@ -10,10 +13,11 @@ end
 
 def calculo_idade (ano, nascimento)
     idade = ano - nascimento
-    puts "Sua idade = " + idade.to_s
-    return
+    return idade
 
-    
+    resultado = idade(2021, 1996)
+
+    puts resultado
 end
 
 puts calculo_idade(2021, 1996)
