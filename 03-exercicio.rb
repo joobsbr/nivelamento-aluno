@@ -8,13 +8,13 @@ puts horas_ano(365, 24)
 
 #ATÉ AQUI OK
 
-def minutos_decadas (decada, dias, horas, minutos)
-    decada = decada * dias * horas * minutos
+def minutos_decadas (dia, decada, dias, horas, minutos)
+    decada = dia * decada * dias * horas * minutos
     puts "A quantidade de minutos há em uma década é = " + decada.to_s
     return
 end
 
-puts minutos_decadas(10, 365, 24, 60)
+puts minutos_decadas(1, 10, 365, 24, 60)
 
 #ATE AQUI OK
 
