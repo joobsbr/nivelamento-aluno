@@ -12,6 +12,7 @@ def calcula_batimentos(idade)
      idade * 365 * 24 * 60 * 80
 end
 
+################################################################################
 
 print "Qual o seu nome?: "
 nome = gets.chomp
@@ -19,3 +20,4 @@ print "Qual a sua idade?: "
 idade = gets.to_i
 puts
 puts nome + " seu coração já bateu  " + calcula_batimentos(idade).to_s + " vezes"
+##################################################################################
