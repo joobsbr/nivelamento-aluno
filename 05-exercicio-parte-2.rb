@@ -1,4 +1,3 @@
-# Parte 2:
 # Escreva um programa que pergunte o nome e a idade do usuário.
 # Escreva também uma função que calcula a quantidade de batimentos cardíacos (uma estimativa)
 # baseado na quantidade de dias que o usuário viveu.
