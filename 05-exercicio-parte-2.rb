@@ -7,8 +7,8 @@
 
 
 
-def calcula_batimentos(idade)
-     return idade * 365 * 24 * 60 * 80
+def calcula_batimentos(idade)                            # <------------------------ OQUE ESTA DENTRO DOS PARENTESES É O PARAMETRO
+     return idade * 365 * 24 * 60 * 80                   # <------------------------ O NOME DISSO É FUNÇÃO (DEF ATE END)
 end
 
 ################################################################################

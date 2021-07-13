@@ -10,7 +10,7 @@ def calcular_area(raio)
     return (raio ** 2) * Math::PI
 end
 
-
+######################################################################################
 
 print "Por favor, informe o valor do raio: "
 raio = gets.to_i
