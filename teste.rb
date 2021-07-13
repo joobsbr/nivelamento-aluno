@@ -1,26 +1,21 @@
-def calculo_imc (peso, altura)
-    imc = peso / altura ** 2
-    return imc
 
-    resultado = imc(102, 1.98)
+numero = 0 #<------ ESCOPO GLOBAL 
 
-    puts resultado
+puts numero
+
+
+def f1 # <------ FUNÇAO
+    numero = 1 # <-------- ESCOPO LOCAL DENTRO DA FUNÇÃO
+    puts numero
 end
 
+f1()
 
-    puts calculo_imc(80, 1.98)
+puts numero
+##########################################################################################################
+
+#exemplos de captura de dados do usuario 
 
 
-def calculo_idade (ano, nascimento)
-    idade = ano - nascimento
-    return idade
-
-    resultado = idade(2021, 1996)
-
-    puts resultado
-end
-
-puts calculo_idade(2021, 1996)
-
-    
-    
+print "Digite algo:"
+x = gets 
