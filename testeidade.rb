@@ -7,8 +7,8 @@
 
 
 
-def calcula_batimentos(idade)
-     return idade * 365 * 24 * 60 * 80
+def calcula_batimentos(idade, batimentos)
+    return batimentos * idade * 365 * 24 * 60
 end
 
 ################################################################################
@@ -17,6 +17,8 @@ print "Qual o seu nome?: "
 nome = gets.chomp
 print "Qual a sua idade?: "
 idade = gets.to_i
+print "Quantidade de batimentos?: "
+batimentos = gets.to_i
 puts
-puts nome + " seu coração já bateu  " + calcula_batimentos(idade).to_s + " vezes"
+puts nome + " seu coração já bateu  " + calcula_batimentos(idade, batimentos).to_s + " vezes"
 ##################################################################################
