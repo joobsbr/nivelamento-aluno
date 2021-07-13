@@ -3,7 +3,7 @@
 # 3) A área de um círculo é seu raio ao quadrado vezes o valor da constante matemática PI (3.1415...)
 # Escreva funcões para calcular o diâmetro, o comprimento e a área de um círculo com base no valor do seu raio.
 
-def calcular_diametro(raio)
+def calcular_diametro(raio) # <------ O parametro é o Raio
     return raio * 2
 end
 
