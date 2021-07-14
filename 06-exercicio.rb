@@ -34,7 +34,7 @@ elsif taxa_ocupacao > 0.5 && taxa_ocupacao < 0.65 && fator_transmissao < 1
 return "AMARELA"
 elsif taxa_ocupacao > 0.65 && taxa_ocupacao < 0.80 && fator_transmissao < 1
 return "LARANJA"
-elsif taxa_ocupacao > 0.8 && taxa_ocupacao <= 0.90 || fator_transmissao >= 1
+elsif taxa_ocupacao > 0.8 && fator_transmissao >= 1
 return "VERMELHO"
 elsif taxa_ocupacao > 0.9
 return "ROXA"
