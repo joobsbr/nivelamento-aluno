@@ -24,7 +24,7 @@
 
 
 def fase_pandemica(taxa_vacinacao, fator_transmissao, taxa_ocupacao)
-if taxa_vacinacao >=0 && taxa_vacinacao <=1 && fator_transmissao >=0 && taxa_ocupacao >=0 && taxa_ocupacao <=1 #- taxa de vacinação deve ser um número entre 0.0 e 1.0 (1.0 = 100%)
+if taxa_vacinacao >=0 && taxa_vacinacao <=1 && fator_transmissao >=0 && taxa_ocupacao >=0 && taxa_ocupacao <=1 
 
 if taxa_vacinacao > 0.8
 return "AZUL"
@@ -41,11 +41,11 @@ return "ROXA"
 end
 
 elsif taxa_vacinacao < 0 || taxa_vacinacao > 1
-    return "Dados incorretos. A taxa de vacinação deve estar entre 0 e 1."
+    return "Parametros incorretos. A taxa de vacinação deve estar entre 0 e 1."
 elsif fator_transmissao < 0
-    return "Dados incorretos. O fator de transmissão deve ser maior ou igual a 0."
+    return "Parametros incorretos. O fator de transmissão deve ser maior ou igual a 0."
 elsif taxa_ocupacao < 0 || taxa_ocupacao > 1
-    return "Dados incorretos. A taxa de ocupação deve estar entre 0 e 1."
+    return "Parametros incorretos. A taxa de ocupação deve estar entre 0 e 1."
 
 end    
 end
