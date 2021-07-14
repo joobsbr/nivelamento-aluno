@@ -50,12 +50,12 @@ elsif taxa_ocupacao < 0 || taxa_ocupacao > 1
 end    
 end
 
-puts fase_pandemica(1, 1, 1)
-puts fase_pandemica(0.1, 0.7, 0.5)
-puts fase_pandemica(0.0, 0.1, 0.51)
-puts fase_pandemica(0.0, 0.1, 0.66)
-puts fase_pandemica(0.0, 1.0, 0.81)
-puts fase_pandemica(0.5, 0.7, 0.91)
+puts fase_pandemica(1, 1, 1) # <------ AZUL
+puts fase_pandemica(0.1, 0.7, 0.5) # <------- VERDE
+puts fase_pandemica(0.0, 0.1, 0.51) # <------ AMARELA
+puts fase_pandemica(0.0, 0.1, 0.66) # <------ LARANJA
+puts fase_pandemica(0.0, 1.0, 0.81) # <------ VERMELHA
+puts fase_pandemica(0.5, 0.7, 0.91) # <------ ROXA
 
 
 
