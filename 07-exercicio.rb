@@ -14,21 +14,15 @@ puts "(" + numero.to_s + ")"
 chute = gets.chomp
 
 
-if chute == 0 &&  numero == 0 
+if chute == "0" || (chute.to_i >= 1 && chute.to_i <= 100)
+   if numero == chute.to_i
     puts "Acertou"
-    elsif chute == 0 && numero != 0
+   else
         puts "Errou!"
-    else
-        chute = chute.to_i
-        if chute > 0 && chute <= 100
-            if numero == chute
-                puts "Acertou!"
-            else
-                puts "Errou!"
-            end
+   end
         else
             puts "inválido"
-        end
+    
     end
 
 
