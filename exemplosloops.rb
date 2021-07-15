@@ -4,23 +4,33 @@
 # Subir no GitHub como 07-exercício. (editado) 
 
 
-puts "Olá vamos jogar ?"
-puts "Entre 0 a 100 pense em um numero !"
+puts "IMPRIMIR COM WHILE"
 
+numero_limite = gets.chomp.to_i
+numero = 1
 
-numero = rand(0..100)
-puts "(" + numero.to_s + ")"
+while numero <= numero_limite
+    puts numero
+    numero = numero +1
+end
 
-chute = gets.chomp
+puts "IMPRIMIR COM UNTIL"
 
+numero = 1
 
-if chute == "0" || (chute.to_i >= 1 && chute.to_i <= 100)
-   if numero == chute.to_i
-    puts "Acertou"
-   else
-        puts "Errou!"
-   end
-        else
-            puts "inválido"
-    
+until numero > numero_limite
+    puts numero
+    numero = numero + 1
+end
+
+puts "IMPRIMIR COM FOR NUMEROS"
+
+for letra in (1..10)
+        puts letra
     end
+    puts "IMPRIMIR COM FOR LETRAS"
+    for letra in ("a".."z")
+        puts letra
+    end
+    
+
