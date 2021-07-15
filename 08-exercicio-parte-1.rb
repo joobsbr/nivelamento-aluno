@@ -11,10 +11,11 @@
 
 
 puts "Digite um numero para a tabuada: "
-nu = gets.chomp.to_i
+
+numero_calcular = gets.chomp.to_i # OQUE FOR DIGITADO NESSA VARIAVEL SERA MULTIPLICADO PELO LOOP
   
-numero = nu
+numero = numero_calcular #VARIAVEL DO NUMERO A SER CALCULADO
   
-for n in (1..10)
+for n in (1..10) 
   puts n.to_s + " x " + numero.to_s + " = " + (n * numero).to_s
 end
