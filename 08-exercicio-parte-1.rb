@@ -12,7 +12,7 @@
 
 puts "Digite um numero para a tabuada: "
 
-numero_calcular = gets.chomp.to_i # OQUE FOR DIGITADO NESSA VARIAVEL SERA MULTIPLICADO PELO LOOP
+numero_calcular = gets.chomp.to_f # OQUE FOR DIGITADO NESSA VARIAVEL SERA MULTIPLICADO PELO LOOP
   
 numero = numero_calcular #VARIAVEL DO NUMERO A SER CALCULADO
   
