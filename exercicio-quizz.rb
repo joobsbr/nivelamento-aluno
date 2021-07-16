@@ -1,28 +1,11 @@
-def a()
-    b()
-    c()
-    f()
-end
+puts "Digite um numero para a tabuada: "
 
-def b()
-    c()
-    d()
-end
-def c()
-    print 'c'
-end
-def d()
-    c()
-    e()
-end
-def e()
-    print 'e'
-end
-def f()
-    print 'f'
-end
-def main()
-    a()
-end
+numero_calcular = gets.chomp.to_i # OQUE FOR DIGITADO NESSE
 
-main()
+
+
+numero = numero_calcular #VARIAVEL DO NUMERO A SER CALCULADO
+  
+for n in (1..10) 
+  puts n.to_s + " x " + numero.to_s + " = " + (n * numero).to_s
+end
