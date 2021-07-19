@@ -16,6 +16,6 @@ def posicao_no_array(array, numero)
 end
 
 
-numeros = [1, 2, 3, 4, 5, 6, 7]
-numero = 1
+numeros = [1, 2, 3, 4, 5, 6, 7] # ARRAY
+numero = 1 # NUMERO QUE QUERO SABER O INDICE
 puts "O indice do numero " + numero.to_s + " é " + posicao_no_array(numeros, numero).to_s
