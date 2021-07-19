@@ -3,11 +3,11 @@
 # Então, cada nível é preenchido até que o nível da base tenha o mesmo número de "*" que o número informado.
 
 
-#      **
-#     ****
-#    ******
-#   ********
-#  **********
+#      ** 2 
+#     **** 4 
+#    ****** 6 
+#   ******** 8 
+#  ********** 10
 #        * 1
 #       *** 3
 #      ***** 5
