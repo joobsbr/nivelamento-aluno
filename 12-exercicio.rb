@@ -20,4 +20,4 @@ def insere_array(array, valor, posicao_alvo)
 end
 
 array = [5, 8, 10, 9]
-puts insere_array(array, 5, 15)
+puts insere_array(array, 7, 3)
