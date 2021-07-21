@@ -6,13 +6,16 @@
 
 
 def preco_maca (quantidade_de_maca)
-    if quantidade_de_maca >= 12
+    if quantidade_de_maca <=0
+        return nil
+    elsif quantidade_de_maca >= 12
         return quantidade_de_maca * 0.25
     elsif
         quantidade_de_maca <= 12
         return quantidade_de_maca * 0.30
     end
 end
+puts(preco_maca(0)) # deve imprimir 1.8 ou 1.799999...
 puts(preco_maca(6)) # deve imprimir 1.8 ou 1.799999...
 puts(preco_maca(12)) # deve imprimir 3.0
 puts(preco_maca(10)) # deve imprimir 3.0
