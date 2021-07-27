@@ -14,9 +14,9 @@ def altura_escada(altura)
     end
     return escada
 end
-puts(altura_escada(1)) # OK
-puts(altura_escada(2)) # OK DEU CERTO DE NOVO '-'
-puts(altura_escada(3)) # OLHA SÓ MAIS UMA VEZ <3
-puts(altura_escada(0)) # Deus é bom, terminei 
+puts(altura_escada(1)) # 
+puts(altura_escada(2)) # 
+puts(altura_escada(3)) # 
+puts(altura_escada(0)) # 
 
 #RESOLVIDO
